@@ -115,8 +115,13 @@
         background-color: #fff;
         color: $bg;
         cursor: pointer;
+        outline: none;
         & + button {
             margin-left: 5px;
+        }
+        &.mixitup-control-active{
+            background-color: $red;
+            color: #fff;
         }
     }
 }
@@ -200,6 +205,11 @@
         color: $bg;
         padding: 20px 30px;
         cursor: pointer;
+        outline: none;
+        &.mixitup-control-active{
+            background-color: $red;
+            color: #fff;
+        }
     }
 }
 

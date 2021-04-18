@@ -89,15 +89,15 @@
             </div>
             <div class="products__inner">
                 <div class="products__inner-btn">
-                    <button>All</button>
-                    <button>WordPress</button>
-                    <button>Joomla</button>
-                    <button>Plugins</button>
-                    <button>Component</button>
-                    <button>PSD</button>
+                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter=".category-wordpress">WordPress</button>
+                    <button type="button" data-filter=".category-joomla">Joomla</button>
+                    <button type="button" data-filter=".category-plugins">Plugins</button>
+                    <button type="button" data-filter=".category-component">Component</button>
+                    <button type="button" data-filter=".category-psd">PSD</button>
                 </div>
                 <div class="products__inner-box">
-                    <div class="product__item">
+                    <div class="product__item mix category-component" data-order="1">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-wordpress" data-order="2">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-plugins" data-order="3">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -172,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-psd category-new" data-order="4">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -197,7 +197,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-wordpress category-new" data-order="5">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-joomla category-popular" data-order="6">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -247,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-psd category-popular" data-order="7">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -272,7 +272,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__item">
+                    <div class="product__item mix category-wordpress" data-order="8">
                         <a class="product__item-img" href="#" style="background-image: url(images/content/product__item.jpg);"></a>
                         <div class="product__item-content">
                             <div class="product__item-name">
@@ -301,8 +301,8 @@
             </div>
             
             <div class="products__botton-btn">
-                <button>All New Items</button>
-                <button>Popular Items</button>
+                <button type="button" data-filter=".category-new">All New Items</button>
+                <button type="button" data-filter=".category-popular">Popular Items</button>
             </div>
 
         </div>
