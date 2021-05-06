@@ -271,9 +271,9 @@
         .advantages__item-title {
             color: $green;
         }
-        .advantages__item-images{
-            g{
-                fill:#fff;
+        .advantages__item-images {
+            g {
+                fill: #fff;
                 transition: all 0.5s;
             }
         }
@@ -315,5 +315,40 @@
 .ico-3 {
     svg {
         width: 86px;
+    }
+}
+.author {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    &__box {
+        max-width: 650px;
+        min-height: 215px;
+        width: 100%;
+        background-color: $green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title{
+        font-size: 30px;
+        line-height: 36px;
+        color: #fff;
+        margin-right: 45px;
+        max-width: 265px;
+        span{
+            @include f700
+        }
+    }
+    &__link{
+        font-size: 18px;
+        line-height: 36px;
+        padding: 14px 40px;
+        background-color: #fff;
     }
 }
