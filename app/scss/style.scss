@@ -7,12 +7,13 @@
     justify-content: space-between;
     height: 90px;
     align-items: center;
+    top: 0;
 }
 .header__text {
     margin-left: auto;
     margin-right: 50px;
-    span {
-        color: $red;
+    a {
+        color: $red; 
     }
 }
 .header__btn {
@@ -111,6 +112,7 @@ span {
 .header__box {
     display: flex;
     align-items: center;
+    height: 90px;
 }
 .user {
     margin-left: 20px;
@@ -196,6 +198,7 @@ span {
     height: 0;
     overflow: hidden;
     transition: all 0.3s;
+    z-index: 1;
 }
 .basket__box,
 .notification__box,
@@ -322,6 +325,10 @@ span {
     background-color: #e85647;
     width: 120px;
     margin-left: 6px;
+}
+.header__btn-menu,
+.header__menu{
+    display: none;
 }
 // end header
 
@@ -808,3 +815,11 @@ span {
         }
     }
 }
+
+
+
+
+
+
+
+@import "media";
