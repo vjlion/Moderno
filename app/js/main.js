@@ -1,4 +1,4 @@
-const { active } = require("browser-sync");
+
 
 $(function () {
 
@@ -22,14 +22,11 @@ $(function () {
     $('.menu__list').slideToggle();
   });
 
-
-
-
-  $('.header__btn-menu').on('click', function(){
+  
+  $('.header__btn-menu').on('click', function () {
     $('.header__box').toggleClass('active');
   });
 
-  
 
   
 
